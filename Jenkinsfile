@@ -38,12 +38,6 @@ pipeline
             }
         }
     }
-    post
-     {
-        always
-        {
-           emailtext body: 'Testing purpose.', subject: 'Pipeline Mail Notification', to: 'hellosharanc@gmail.com' 
-        }
-    }
+   
  }
   
